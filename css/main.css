@@ -1,0 +1,68 @@
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+   
+}
+
+body {
+    /* background-color: #e2d5c2; */
+    background-image: url('/images/backgroundPaper.jpg');
+    background-size: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header h1{
+    align-content: center;
+    padding-left: 20px;
+    height: auto;
+    font-size: 4rem;
+    color: black;
+   }
+
+   body h2{
+    text-align: center;
+     padding: 0px, 0px, 0px, 0px;
+     font-size: 100px;
+     padding-bottom: 0em;
+     padding-top: 3em;
+ }
+ 
+
+p{
+    /*align-content: center;*/
+
+    
+    font-size: 30px;
+    max-width: 90%m;
+    margin: 0auto;
+}
+
+a{
+    color:  #bd331d;
+}
+
+img {
+    height: 60em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+     /* width: 50%; */  
+}
+
+.countries{
+    height: 400px ;
+    width: 400px;
+    padding: 0%;
+
+}
+
+
+.caption{
+    text-align: center;
+    font-size: 75%;
+}
+
+
