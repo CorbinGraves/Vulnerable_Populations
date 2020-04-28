@@ -2,7 +2,10 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-   
+    height: 100%;
+}
+header{
+    margin: 0 auto;
 }
 
 body {
@@ -26,17 +29,14 @@ header h1{
      padding: 0px, 0px, 0px, 0px;
      font-size: 100px;
      padding-bottom: 0em;
-     padding-top: 3em;
+     padding-top: 1em;
  }
  
 
 p{
-    /*align-content: center;*/
-
-    
     font-size: 30px;
     max-width: 90%m;
-    margin: 0auto;
+    margin: 0 auto;
 }
 
 a{
@@ -56,13 +56,21 @@ img {
     height: 400px ;
     width: 400px;
     padding: 0%;
+    border:2px solid #D48333;
+    border-radius: 50%;
 
 }
-
-
 .caption{
     text-align: center;
     font-size: 75%;
 }
 
-
+.Banner{
+max-width: 700rem;
+max-height: 22rem;
+    margin: 0 auto;
+    margin-bottom: 0rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("inmateBanner.png");
+    border-radius: 40%;
+    border:2px solid #D48333;
+}
