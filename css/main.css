@@ -10,7 +10,7 @@ header{
 
 body {
     /* background-color: #e2d5c2; */
-    background-image: url('/images/backgroundPaper.jpg');
+    background-image: url('images/backgroundPaper.jpg');
     background-size: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ max-width: 700rem;
 max-height: 22rem;
     margin: 0 auto;
     margin-bottom: 0rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("inmateBanner.png");
-    border-radius: 40%;
+    background-image: linear-gradient(rgba(0 0 0 0.5), rgba(0 0 0 1)), url("inmateBanner.png");
+    border-radius: 50%;
     border:2px solid #D48333;
 }
