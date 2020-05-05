@@ -1,6 +1,6 @@
-barChart("figure#chart", "/data/inmatesBrazil.csv" );
-barChart("figure#chart2", "/data/inmatesItaly.csv" );
-barChart("figure#chart3", "/data/inmatesUSA.csv" );
+barChart("figure#chart", "data/inmatesBrazil.csv" );
+barChart("figure#chart2", "data/inmatesItaly.csv" );
+barChart("figure#chart3", "data/inmatesUSA.csv" );
 
 console.log( "is my js working?");
 
