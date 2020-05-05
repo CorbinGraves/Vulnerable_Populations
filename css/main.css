@@ -10,7 +10,7 @@ header{
 
 body {
     /* background-color: #e2d5c2; */
-    background-image: url('images/backgroundPaper.jpg');
+    background-image: url("images/backgroundPaper.jpg");
     background-size: 100%;
     max-width: 1000px;
     margin: 0 auto;
