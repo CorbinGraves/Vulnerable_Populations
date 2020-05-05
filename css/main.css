@@ -31,6 +31,9 @@ header h1{
      padding-bottom: 0em;
      padding-top: 1em;
  }
+ footer{
+     margin: 0 auto;
+ }
  
 
 p{
@@ -38,6 +41,7 @@ p{
     max-width: 90%;
     margin: 0 auto;
 }
+
 
 a{
     color:  #bd331d;
@@ -51,15 +55,19 @@ img {
     
      /* width: 50%; */  
 }
+.intro_time{
+    text-align: center;
+}
 
 .countries{
-    height: 400px ;
-    width: 400px;
-    padding: 2%;
+    height: 5em ;
+    width: 5em;
+    padding: 1%;
     border:2px solid #D48333;
     border-radius: 50%;
 
 }
+
 .caption{
     text-align: center;
     font-size: 75%;
@@ -73,4 +81,16 @@ max-height: 22rem;
     background-image: linear-gradient(rgba(0 0 0 1), rgba(0 0 0 1)), url("inmateBanner.png");
     border-radius: 50%;
     border:2px solid #D48333;
+}
+.virus{
+max-width: 50rem;
+max-height: 10rem;
+margin-right: 0em;
+margin-bottom: 0rem;
+}
+.intro_byline{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: Tahoma;
 }
