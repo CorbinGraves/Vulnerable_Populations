@@ -17,10 +17,10 @@ body {
 }
 
 header h1{
-    align-content: center;
+    text-align: left;
     padding-left: 20px;
     height: auto;
-    font-size: 4rem;
+    font-size: 5rem;
     color: black;
    }
 
@@ -87,7 +87,21 @@ max-width: 50rem;
 max-height: 10rem;
 margin-right: 0em;
 margin-bottom: 0rem;
+position: relative;
+animation-name: example;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-fill-mode: forwards;
+
+
 }
+/* @keyframes example{
+  
+        from {left:0px; top:0px;}
+          to { left:200px; top:0px;}
+          to{ left:0px; top:0px;}
+} */
 .intro_byline{
     text-align: center;
     margin: 0 auto;

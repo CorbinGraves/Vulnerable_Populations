@@ -121,7 +121,7 @@ function barChart ( where,  filePath) {
 
 	d3.select(where)
 	.append("figcaption")
-	.text("Ages 18 and below are left out of this")
+	.text("Ages 18> are not accounted for in this chart.")
 	.attr("class", "caption" );
 
 }
